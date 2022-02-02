@@ -26,13 +26,21 @@ heading-container içerisinde bir içerik ve container dark ve light içerisine 
 - daha sonra bir min-height: 100% verdik. 
 şuan parallax için kullanacağımız resim çok ufak bir boyutta olduğu için çok anlamsız görünüyor. bu nedenle sıfırlama yaptığımız container'da height'ı 100% vermemiz gerekiyor.
 
-/*background--2,3,4 için height'ı 80 verdik örneğimize uygun olsun diye.*/
+background--2,3,4 için height'ı 80 verdik örneğimize uygun olsun diye.
 
+32. satır:
 - parallax için gerekli standart kodları yazıyoruz:
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-bütün resimler için yukarıdaki yöntemleri uyguladık
+
+<!-- 
+background-attachment: fixed;  -- sabitledi 
+background-position: center;   -- ortaladı
+background-repeat: no-repeat;  -- tekrarlamayı kapattı.
+background-size: cover;        -- sayfanın tamamını kapladı
+bütün resimler için yukarıdaki yöntemleri uyguladık. 
+-->
+
+parallax görüntümüz şuan hazır. devamında web sitesinin içeriğine stil vereceğiz.
+
+
 56. satır: heading'i stilizie ediyoruz.
 position absolute vermemiz gerekiyor. fakat öncelikle background imagelere position relative vermeliyiz. böylelikle içerideki contenti sayfanın tam olarak ortasına aldık.
