@@ -29,7 +29,15 @@ html,body{
     min-height: 80%;
 }
 
-
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 
