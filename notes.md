@@ -31,13 +31,12 @@ background--2,3,4 için height'ı 80 verdik örneğimize uygun olsun diye.
 32. satır:
 - parallax için gerekli standart kodları yazıyoruz:
 
-<p>
+
 background-attachment: fixed;  -- sabitledi 
 background-position: center;   -- ortaladı
 background-repeat: no-repeat;  -- tekrarlamayı kapattı.
 background-size: cover;        -- sayfanın tamamını kapladı
 bütün resimler için yukarıdaki yöntemleri uyguladık. 
-</p>
 
 parallax görüntümüz şuan hazır. devamında web sitesinin içeriğine stil vereceğiz.
 
