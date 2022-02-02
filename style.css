@@ -84,3 +84,41 @@ html,body{
     color: #ffffff;
     line-height: 1.8rem;
 }
+
+@media (max-width: 768px){
+    .heading-container{
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+    .heading-container__heading{
+        padding: 0.7rem;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        outline: 0.4rem inset purple;
+        outline-offset: 1rem;
+    }
+
+    .heading-container__text{
+        padding: 0.7rem;
+        border-top-left-radius: 0.7rem;
+        border-bottom-right-radius: 0.7rem;
+        outline: 0.4rem inset purple;
+        outline-offset: 3rem;
+        font-size: 0.5rem;
+        line-height: 3rem;
+    }
+    .section{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .background--image1,
+    .background--image2,
+    .background--image3,
+    .background--image4{
+        background-attachment: scroll;
+    }
+
+}
+    
